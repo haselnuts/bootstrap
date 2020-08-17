@@ -33,8 +33,15 @@ style.css
         To get the your container transparent use   
             background-color: transparent (if you use the class jumbotron here then this will override the default set by Bootstrap)
 
+        To get the background image a bit darker so it does not obscure the text infront, add a new class name (.opaque-overlay) and do the following
+            position: absolut
+            top: 0
+            left: 0
+            heigth: 100%
+            width: 100 %
+            background-color: rgba(0(red),0(green),0(blue),0.5(alpha is the transparency 1 is complete visible and 0 completly transparent))
 
 
 index.html
-    To strech the background image "whiskey-background.jpg" over the full width of the page add to the class container the "container-fluid"
+    To strech the background image "whiskey-background.jpg" over the full width of the page add to the class "container-fluid"
         
