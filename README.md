@@ -40,8 +40,20 @@ style.css
             heigth: 100%
             width: 100 %
             background-color: rgba(0(red),0(green),0(blue),0.5(alpha is the transparency 1 is complete visible and 0 completly transparent))
+        
+        When implementing hovering use all 4 of the below and do not forget the dot infront and the comma in the end
+            .btn--red:hover,
+            .btn--red:active,
+            .btn--red:focus,
+            .btn--red:active:focus
+
+        When the navbar and the callout section have the same color the navbar will disapear so you need to set the z-index for the container
+
+        If you target classes within classes then target first the parent class and add the child class
+            .navbar navbar-toggler
 
 
 index.html
     To strech the background image "whiskey-background.jpg" over the full width of the page add to the class "container-fluid"
+!!! &nbsp; A non-breaking space is a space that will not break into a new line. Two words separated by a non-breaking space will stick together (not break into a new line). This is handy when breaking the words might be disruptive.
         
