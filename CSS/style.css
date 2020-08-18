@@ -1,7 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-.alert-container {}
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .callout-container {
     height: 100vh;
@@ -55,6 +58,14 @@ body {
     border: 0;
 }
 
+.navbar-dark .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
 /*Jumbotron*/
 
 .jumbotron {
@@ -87,7 +98,7 @@ body {
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
-    width: 160px;
+    width: 180px;
 }
 
 .btn--red {

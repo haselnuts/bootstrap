@@ -52,8 +52,20 @@ style.css
         If you target classes within classes then target first the parent class and add the child class
             .navbar navbar-toggler
 
+        Why do I have to target the child element to get rid of the radius??? Has the content of the container the radius????
+            .alert-container .col-12
+                    padding-left: 0;
+                    padding-right: 0;
+
+            .side-wide-alert 
+                border-radius: 0;
+
 
 index.html
     To strech the background image "whiskey-background.jpg" over the full width of the page add to the class "container-fluid"
 !!! &nbsp; A non-breaking space is a space that will not break into a new line. Two words separated by a non-breaking space will stick together (not break into a new line). This is handy when breaking the words might be disruptive.
-        
+!!! Do not forget to copy the entire class name!!!
+    e.g. class btn btn-lg btn--cta btn--red    
+    If you want to button up another button then use the full class
+    e.g. class btn btn--cta btn--red
+    DO NOT FORGET THE FIRST PART "btn"
