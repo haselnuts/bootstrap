@@ -57,6 +57,16 @@ body {
     line-height: 45px;
 }
 
+.features .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 23px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;;
+}
+
 .container-wrappers {}
 
 .container-wrappers-red {
@@ -167,7 +177,9 @@ body {
     margin-top: 0;
 }
 
-
+.quotes .page-header{
+    margin-bottom: 25px;
+}
 
 /* Content container*/
 
