@@ -59,6 +59,8 @@ style.css
 
             .side-wide-alert 
                 border-radius: 0;
+        
+ !!!    When using a divider use command <hr>
 
 
 index.html
